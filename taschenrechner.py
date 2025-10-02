@@ -11,6 +11,9 @@ def multiplikation(zahl_1, zahl_2):
     print(f"Das Ergebnis ist: {ergebnis}")
 
 def division(zahl_1, zahl_2):
+    if zahl_2 == 0:
+        print("Division durch Null ist nicht erlaubt.")
+        return
     ergebnis=zahl_1/zahl_2
     print(f"Das Ergebnis ist: {ergebnis}")
 

@@ -1,0 +1,19 @@
+Frage den Benutzer nach Zahl 1
+Frage den Benutzer nach Zahl 2
+Frage den Benutzer nach gewünschter Operation (+, -, *, /)
+
+WENN Operation ist "+"
+    Führe Addition aus und zeige Ergebnis
+SONST WENN Operation ist "-"
+    Führe Subtraktion aus und zeige Ergebnis
+SONST WENN Operation ist "*"
+    Führe Multiplikation aus und zeige Ergebnis
+SONST WENN Operation ist "/"
+    WENN Zahl 2 ist 0
+        Zeige Fehlermeldung "Division durch Null nicht erlaubt"
+    SONST
+        Führe Division aus und zeige Ergebnis
+SONST
+    Zeige Fehlermeldung "Falsche Eingabe"
+
+ENDE
