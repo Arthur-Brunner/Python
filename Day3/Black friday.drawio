@@ -1,0 +1,98 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Seite-1" id="NpW5YH6EgTvHtO4Sw9HI">
+    <mxGraphModel dx="1026" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Black Friday lucky Sales Automat&lt;/h1&gt;&lt;div&gt;1. this system do not accept payment&lt;/div&gt;&lt;div&gt;2. this system has only 10 items (at the moment)&lt;/div&gt;&lt;div&gt;3. customer see the list of available items and select one&lt;/div&gt;&lt;div&gt;4. if wish is available sytem deliver it, otherwise take your chance tomorrow!&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Note: if an item delivered, it shall still shown in the list&lt;/div&gt;&lt;div&gt;Note: customer has only 3 chances, but we do not check it and trust customer just show 3 times, if customer win at any try after delivery, loop is ended&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-1140" width="440" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-630" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-880" width="660" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-5" value="listing product" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-6" value="see product list" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-620" width="120" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-9" value="choose product" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.208;entryY=0.863;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="rUq4UuH7DBzEq6C7R9Di-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="-620" as="sourcePoint" />
+            <mxPoint x="280" y="-670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rUq4UuH7DBzEq6C7R9Di-11">
+          <mxGeometry x="-0.0349" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rUq4UuH7DBzEq6C7R9Di-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="-494" as="sourcePoint" />
+            <mxPoint x="250" y="-544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-14" value="&amp;lt;&amp;lt;extended&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rUq4UuH7DBzEq6C7R9Di-12">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-15" value="Control chance system" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="-460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-16" value="deliver product" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-630" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="rUq4UuH7DBzEq6C7R9Di-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="-420" as="sourcePoint" />
+            <mxPoint x="470" y="-470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-18" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rUq4UuH7DBzEq6C7R9Di-17">
+          <mxGeometry x="0.0667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-19" value="print rabbat bill" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="-810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="rUq4UuH7DBzEq6C7R9Di-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="-460" as="sourcePoint" />
+            <mxPoint x="640" y="-510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-22" value="&amp;lt;&amp;lt;included&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rUq4UuH7DBzEq6C7R9Di-20">
+          <mxGeometry x="0.1111" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="rUq4UuH7DBzEq6C7R9Di-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="-630" as="sourcePoint" />
+            <mxPoint x="640" y="-680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-23" value="&amp;lt;&amp;lt;included&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rUq4UuH7DBzEq6C7R9Di-21">
+          <mxGeometry x="-0.02" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rUq4UuH7DBzEq6C7R9Di-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rUq4UuH7DBzEq6C7R9Di-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="-600" as="sourcePoint" />
+            <mxPoint x="100" y="-650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
